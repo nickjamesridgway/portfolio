@@ -1,0 +1,208 @@
+.header {
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #949494;
+    color: #ffffff;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display:inline-block;
+    margin-left: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+.header div {
+    padding-top: 40px;
+    margin-right: 10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.maindiv header{
+
+  display: inline-block;
+  font-size: 24px;
+  color: #616161;
+  font-family: 'Verdana', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.maindiv {
+  display: flex;
+  flex-wrap:nowrap;
+  margin-top: 2%;
+  border-style:none;
+  border-width: 0px;
+}
+
+
+.aboutdiv {
+  display: flex;
+  flex-wrap:nowrap;
+  margin-top: 2%;
+  border-style:none;
+  border-width: 0px;
+}
+
+.aboutdiv header{
+
+  display: inline-block;
+  font-size: 24px;
+  color: #616161;
+  font-family: 'Verdana', Calibri, 'Trebuchet MS', sans-serif;
+  border-style:none;
+  border-width: 0px;
+
+}
+
+.aboutcard {
+  flex: 2 100px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  text-align: left;
+  border-style: solid;
+  border-width: 0px;
+}
+
+
+  .sidediv {
+    margin-top: 2%;
+    flex: 0 1 80px;
+    padding: 10px;
+    text-align: right;
+    border-color: #616161;
+    border-style: solid;
+    border-width: 0px;
+    border-right-width: 2px;
+  }
+
+  .mydiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    flex: 1 0 100px;
+    padding: 10px;
+    padding-left: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+  }
+
+  .mydiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    flex: 1 0 100px;
+    padding: 10px;
+    padding-left: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+  }
+
+  .bigcard {
+    flex: 1 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+  }
+
+  
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+
+  .card {
+    flex: 1 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+  }
+
+  .bigcard img:hover{
+    transform: scale(1.5);
+  }
+  
+  .dreamking img:hover{
+    transform: scale(1.15);
+  }
+
+  .azrael img:hover{
+    transform: scale(1.15);
+  }
+
+  .azrael{
+    padding-top: 5%;
+  }
+
+  .contact {
+    flex: 1 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    border-style: solid;
+    border-width: 0px;
+    margin-top: 1%;
+    padding: 0px;
+    padding-left: 50px;
+    border-style: solid;
+    border-width: 0px;
+    font-size: 20px;
+    font-family: 'Verdana', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+
+  .contact a{
+    color: #646464;
+    text-decoration: none;
+}
+
+.contact a:hover{
+  color: #37c3ee;
+  text-decoration: none;
+}
+  
+  .work {
+    display: flex;
+    flex-wrap: wrap; 
+    flex: 1 0 100px;
+    padding: 10px;
+    text-align: right;
+    border-style: solid;
+    border-width: 0px;
+  }
+
+
+
