@@ -7,7 +7,6 @@
     flex-wrap:nowrap;
 }
 
-
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -30,6 +29,11 @@
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+.body{
+margin: 0px;
+padding: 0px;
 }
 
 a {
@@ -125,12 +129,14 @@ a {
     flex: 1 0 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 30%;
+    padding-left: 40%;
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
+    align-items: center;
     border-style: solid;
     border-width: 0px;
+    transform: scale(2);
   }
 
   
@@ -141,10 +147,11 @@ a {
   }
 
   .card {
-    flex: 1 0 100px;
+    flex: 1 0 50%;
     display: flex;
     flex-wrap: wrap;
     padding: 4%;
+    align-items: center;
     text-align: center;
     border-style: solid;
     border-width: 0px;
@@ -154,16 +161,21 @@ a {
     transform: scale(1.5);
   }
   
-  .dreamking img:hover{
-    transform: scale(1.15);
-  }
-
-  .azrael img:hover{
+  .card img:hover{
     transform: scale(1.15);
   }
 
   .azrael{
     padding-top: 5%;
+  }
+
+  .perfectharmony img{
+    padding-top: 5%;
+    transform: scale(2);
+  }
+
+  .perfectharmony img:hover{
+    transform: scale(2.15);
   }
 
   .contact {
