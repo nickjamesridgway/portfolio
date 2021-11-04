@@ -3,34 +3,27 @@
 
 <head>
     <meta charset="UTF-8" />
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
     <title>Nicholas James Ridgway</title>
 </head>
 
 <body>
     <header class="header">
         <h1>Nick James Ridgway</h1>
-        <div>
-            <!-- <ul>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="http://dreamwithin.us">Website</a></li>
-                <li><a href="http://dreamwithin.us/wp-content/uploads/2021/09/Nick-Ridgway-Resume.docx">Resume</a></li>
-            </ul> -->
-        </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about-me">About me <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me <span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work">Work</a>
@@ -58,24 +51,15 @@
          </section>
 
           
-         <section class="mydiv">
-                  
-            <section class="aboutcard">
-               My name is Nicholas James Ridgway, I'm an indie game developer
-               and aspiring web developer. I'm somewhat experienced in several different
-               coding languages, and I'm always learning new things and growing.
-               As a hobby, I like to stream videogames with my son Shiloh.
-                <br><br>
-               I have a passion for coding and over the years I've worked on several different
-               projects. They are mostly videogame related, but I'm working on becoming
-               a full time web developer now. You can find more about my projects in the links below.
-              </section>
+         <section class="aboutdiv">
+          <section class="aboutcard">
+            <img src="./assets/images/me.png">
+           </section>
 
-             <section class="card">
-              <img src="./assets/images/me.jpg">
-             </section>
-          
- 
+            <section class="aboutcard">
+               I have a passion for coding and over the years I've worked on several different
+               projects. You can find more about my projects in the links below.
+              </section>
       </section>             
     </div>
 
@@ -87,35 +71,62 @@
          <header>Work</header>
         </section>
       
-        <section class="mydiv">               
-               <section class="bigcard">
-                  <a href="https://store.steampowered.com/pub/DreamWithin/"><img src="./assets/images/dreamwithin.png" title="Dream Within" alt="Dream Within" width="120%" height="120%"></a>
+        <section class="mydiv">     
+          
+               <!-- Big Card -->
+               
+                <section class="bigcard"> 
+                    <a href="https://github.com/ESThing64/project_release_partner"><img src="./assets/images/releasepartner.png" title="Password Generator" alt="Password Generator"></a>
+                      <br>
+                      Release Partner Project<br>
+                      <a href="https://esthing64.github.io/project_release_partner/">Deployed Application</a>
                 </section>
 
-                <section class="card azrael">
+
+                <!-- Projects -->
+                <section class="card password">
+                  <a href="https://github.com/nickjamesridgway/password-generator"><img src="./assets/images/password.png" title="Password Generator" alt="Password Generator"></a>
+                    <br>
+                    Password Generator<br>
+                    <a href="https://nickjamesridgway.github.io/password-generator/">Deployed Application</a>
+                </section>
+                <section class="card quiz">
+                  <a href="https://github.com/nickjamesridgway/My-Quiz"><img src="./assets/images/quiz.png" title="Coding Quiz" alt="Coding Quiz"></a>
+                  <br>
+                  Coding Quiz<br>
+                  <a href="https://nickjamesridgway.github.io/Quiz/">Deployed Application</a>
+                </section>   
+                <section class="card calendar">
+                  <a href="https://github.com/nickjamesridgway/Calendar"><img src="./assets/images/scheduler.png" title="Work day Scheduler" alt="Work day Scheduler"></a> 
+                  <br>
+                  Workday Scheduler<br>
+                  <a href="https://nickjamesridgway.github.io/Calendar/">Deployed Application</a> 
+                </section> 
+                <section class="card weather">
+                  <a href="https://github.com/nickjamesridgway/My-Weather"><img src="./assets/images/weather.png" title="Weather Dashboard" alt="Weather Dashboard"></a>
+                  <br>
+                  Weather Dashboard<br>
+                  <a href="https://nickjamesridgway.github.io/My-Weather/">Deployed Application</a> 
+                </section> 
+
+                 <!-- Games -->
+                 <section class="card dreamwithin">
+                  <a href="https://store.steampowered.com/pub/DreamWithin/"><img src="./assets/images/dreamwithin.png" title="Dream Within" alt="Dream Within"></a>
+                </section>  
+                <section class="card spacewarfare">
+                  <a href="http://dreamwithin.us/spacewarfare/"><img src="./assets/images/spacewarfare.png" title="Space Warfare" alt="Space Warfare"></a>
+                </section> 
+                 <section class="card azrael">
                   <a href="https://store.steampowered.com/app/1527460/Azrael/"><img src="./assets/images/azrael.png" title="Azrael" alt="Azrael"></a>
                 </section>
                 <section class="card dreamking">
-                  <a href="https://dreamwithin.us/"><img src="./assets/images/dreamking.png" title="The Dream King" alt="The Dream King"></a>
+                  <a href="https://dreamwithin.us/fangames/The%20Dream%20King.zip"><img src="./assets/images/dreamking.png" title="The Dream King" alt="The Dream King"></a>
                 </section>   
                 <section class="card perfectharmony">
                   <a href="https://dreamwithin.us/"><img src="./assets/images/ph_logo.png" title="Perfect Harmony" alt="Perfect Harmony"></a>
                 </section>  
                 <section class="card rails">
-                  <a href="https://dreamwithin.us/"><img src="./assets/images/rails_logo.png" title="Rud's Rails" alt="Rud's Rails"></a>
-                </section> 
-
-                <section class="card password">
-                  <a href="https://nickjamesridgway.github.io/password-generator/"><img src="./assets/images/password.png" title="Password Generator" alt="Password Generator"></a>
-                </section>
-                <section class="card quiz">
-                  <a href="https://nickjamesridgway.github.io/Quiz/"><img src="./assets/images/quiz.png" title="Coding Quiz" alt="Coding Quiz"></a>
-                </section>   
-                <section class="card calendar">
-                  <a href="https://nickjamesridgway.github.io/Calendar/"><img src="./assets/images/scheduler.png" title="Work day Scheduler" alt="Work day Scheduler"></a>
-                </section>  
-                <section class="card rails">
-                  <a href="https://nickjamesridgway.github.io/My-Weather/"><img src="./assets/images/weather.png" title="Weather Dashboard" alt="Weather Dashboard"></a>
+                  <a href="https://dreamwithin.us/rudsrails/"><img src="./assets/images/rails_logo.png" title="Rud's Rails" alt="Rud's Rails"></a>
                 </section> 
 
          </section>             
@@ -131,8 +142,11 @@
            <section class="contact">
             <a href="mailto:nickjamesridgway@gmail.com"><img src="./assets/images/email.png"> Email</a>
             </section> 
+            <section class="contact">
+              <a href="http://www.linkedin.com/in/nickjamesridgway"><img src="./assets/images/linkdin.png"> Linkedin</a>
+              </section>   
            <section class="contact">
-            <a href="http://www.linkedin.com/in/nickjamesridgway"><img src="./assets/images/linkdin.png"> Linkdin</a>
+            <a href="https://github.com/nickjamesridgway/"><img src="./assets/images/github.png"> Github</a>
             </section>          
            <section class="contact">
              <a href="http://facebook.com/nickjamesridgway"><img src="./assets/images/facebook.png"> Facebook</a>
@@ -144,13 +158,8 @@
             <a href="https://dreamwithin.us"><img src="./assets/images/dw.png"> Website</a>
            </section>                  
      </section>   
-
     </div>
-    <br><br><br><br><br><br>
-
+    <br><br>
+    
 </div>
-
-
-
-
 </body>
